@@ -86,7 +86,7 @@
 			"response": [
 				{
 					"id": "30396244-dbfa5a78-a7fb-4562-bc2f-450e24458de0",
-					"name": "可用中转gemini",
+					"name": "gemini 模型列表",
 					"originalRequest": {
 						"method": "GET",
 						"header": [
