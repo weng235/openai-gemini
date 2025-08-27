@@ -83,7 +83,123 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"id": "30396244-dbfa5a78-a7fb-4562-bc2f-450e24458de0",
+					"name": "可用中转gemini",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer AIzaSyDb3Smi33QITTx5ufBdf1cJtY-a0IOFCqY",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://gemini.weng23.dpdns.org/v1/models",
+							"protocol": "https",
+							"host": [
+								"gemini",
+								"weng23",
+								"dpdns",
+								"org"
+							],
+							"path": [
+								"v1",
+								"models"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 27 Aug 2025 13:25:50 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Cf-Ray",
+							"value": "975be5afbf442ee4-LAX"
+						},
+						{
+							"key": "Cf-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin, X-Origin, Referer, accept-encoding"
+						},
+						{
+							"key": "Alt-Svc",
+							"value": "h3=\":443\"; ma=86400"
+						},
+						{
+							"key": "Server-Timing",
+							"value": "gfet4t7; dur=44"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-Xss-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Speculation-Rules",
+							"value": "\"/cdn-cgi/speculation\""
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=5bJM5L8zo1x0dEClcjKQ2WIbWpI22CvtMfQZwqKrpnvnJfQRgyWK%2Bzq1Zq%2FfuPqg%2BAIijPgPP4%2BIG3ownyBd%2FEuLJKPEFm9uaMFadNMF0GoIFndZasLT%2BHL8c8JB05H%2BIe5B\"}]}"
+						},
+						{
+							"key": "Nel",
+							"value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						}
+					],
+					"cookie": [],
+					"responseTime": null,
+					"body": "{\n    \"object\": \"list\",\n    \"data\": [\n        {\n            \"id\": \"embedding-gecko-001\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-1.5-pro-latest\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-1.5-pro-002\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-1.5-pro\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-1.5-flash-latest\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-1.5-flash\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-1.5-flash-002\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-1.5-flash-8b\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-1.5-flash-8b-001\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-1.5-flash-8b-latest\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-2.5-pro-preview-03-25\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-2.5-flash-preview-05-20\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-2.5-flash\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-2.5-flash-lite-preview-06-17\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-2.5-pro-preview-05-06\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-2.5-pro-preview-06-05\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-2.5-pro\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-2.0-flash-exp\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-2.0-flash\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-2.0-flash-001\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-2.0-flash-exp-image-generation\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-2.0-flash-lite-001\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-2.0-flash-lite\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-2.0-flash-preview-image-generation\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-2.0-flash-lite-preview-02-05\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-2.0-flash-lite-preview\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-2.0-pro-exp\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-2.0-pro-exp-02-05\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-exp-1206\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-2.0-flash-thinking-exp-01-21\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-2.0-flash-thinking-exp\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-2.0-flash-thinking-exp-1219\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-2.5-flash-preview-tts\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-2.5-pro-preview-tts\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"learnlm-2.0-flash-experimental\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemma-3-1b-it\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemma-3-4b-it\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemma-3-12b-it\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemma-3-27b-it\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemma-3n-e4b-it\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemma-3n-e2b-it\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-2.5-flash-lite\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-2.5-flash-image-preview\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"embedding-001\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"text-embedding-004\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-embedding-exp-03-07\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-embedding-exp\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"gemini-embedding-001\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"aqa\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        },\n        {\n            \"id\": \"imagen-3.0-generate-002\",\n            \"object\": \"model\",\n            \"created\": 0,\n            \"owned_by\": \"\"\n        }\n    ]\n}"
+				}
+			]
 		}
 	]
 }
