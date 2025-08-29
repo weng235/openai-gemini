@@ -44,7 +44,105 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"id": "30396244-43e5d172-f50c-4493-b65e-b38f019aa567",
+					"name": "调用gemini",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"你好，你可以为我做什么\"\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=AIzaSyDb3Smi33QITTx5ufBdf1cJtY-a0IOFCqY",
+							"protocol": "https",
+							"host": [
+								"generativelanguage",
+								"googleapis",
+								"com"
+							],
+							"path": [
+								"v1beta",
+								"models",
+								"gemini-pro:generateContent"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "AIzaSyDb3Smi33QITTx5ufBdf1cJtY-a0IOFCqY"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "X-Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Referer"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 29 Aug 2025 12:36:56 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "scaffolding on HTTPServer2"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Server-Timing",
+							"value": "gfet4t7; dur=72"
+						},
+						{
+							"key": "Alt-Svc",
+							"value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"responseTime": null,
+					"body": "{\n    \"error\": {\n        \"code\": 404,\n        \"message\": \"models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\",\n        \"status\": \"NOT_FOUND\"\n    }\n}"
+				}
+			]
 		},
 		{
 			"name": "可用中转gemini",
