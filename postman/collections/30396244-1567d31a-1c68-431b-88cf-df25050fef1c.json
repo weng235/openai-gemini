@@ -16,7 +16,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"你好，你可以读取https://weng23.dpdns.org/这个网站嘛\"\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"contents\": [\r\n        {\r\n            \"parts\": [\r\n                {\r\n                    \"text\": \"我想调用一个模型，我应该使用什么样的格式作为上下文呢，以gemini为例\"\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -24,7 +24,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=AIzaSyDb3Smi33QITTx5ufBdf1cJtY-a0IOFCqY",
+					"raw": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=AIzaSyDb3Smi33QITTx5ufBdf1cJtY-a0IOFCqY&mcpServers={\n  \"mcpServers\": {\n    \"spec-workflow\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@pimzino/spec-workflow-mcp@latest\", \"/path/to/your/project\", \"--AutoStartDashboard\"]\n    }\n  }\n}",
 					"protocol": "https",
 					"host": [
 						"generativelanguage",
@@ -40,6 +40,11 @@
 						{
 							"key": "key",
 							"value": "AIzaSyDb3Smi33QITTx5ufBdf1cJtY-a0IOFCqY"
+						},
+						{
+							"key": "mcpServers",
+							"value": "{\n  \"mcpServers\": {\n    \"spec-workflow\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@pimzino/spec-workflow-mcp@latest\", \"/path/to/your/project\", \"--AutoStartDashboard\"]\n    }\n  }\n}",
+							"type": "text"
 						}
 					]
 				}
